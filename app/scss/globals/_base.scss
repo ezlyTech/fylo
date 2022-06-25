@@ -1,0 +1,74 @@
+/**
+ * BLOCKS
+ */
+
+.section {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container {
+    max-width: 1236px;
+    margin: 0 auto;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+body {
+    font-family: $font-primary;
+    background-color: $color-blue;
+}
+
+h1 {
+    color: $color-white;
+    font-family: $font-primary;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    color: $color-white;
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h3 {
+    color: $color-white;
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+p, a{
+    color: $color-white;
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    color: $color-white;
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 19px 95px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 28px;
+    border: none;
+    background: linear-gradient(138.1deg, #63E1D9 -49.34%, #34A0CD 100%);
+    cursor: pointer;
+
+    &:hover {
+        background: #8ADAE3;
+        transition: 1s;
+    }
+}
