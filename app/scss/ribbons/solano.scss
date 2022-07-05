@@ -1,7 +1,43 @@
-.solano{
-    background-color: red; 
-    .h1 {
-        color: aqua !important;
 
+
+    .solano{
+        
+        .uptxt{
+
+            
+
+            
+                .uptxt p {
+                    font-family: $font-secondary;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    
+                }
+          
+        }
+
+    .adjs{
+        margin-left: 10rem;
+        .box {
+            margin-top: -2rem;
+            margin-left: -4rem;
+            .tiles {
+                margin-left: 5rem;
+                border: 1px solid $color-darkblue;
+                border-radius: 3.93258px;
+                background-color: $color-darkblue;
+                width: 360px;
+                height: 200px;
+                left: 540px;
+                top: 2545px;
+                box-shadow: 5px 5px 8px 4px
+                rgba(56, 56, 56, 0.0991282);
+
+
+            }
+        }
     }
+    
 }
