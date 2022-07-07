@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./dist/css/splide.min.css">
+    
   </head>
   <body>
     <header>
@@ -41,54 +43,164 @@
 
     <main>
       <section class="solano">
-        <img
-          class="pic"
-          src="./assets/images/illustration-stay-productive.png"
-          alt=""
-        />
-
         <div class="uptxt">
+          <img
+            class="pic"
+            src="./assets/images/illustration-stay-productive.png"
+            alt=""
+          />
           <h1>
             Stay productive, <br />
             wherever you are
+            <p>
+              Never let location be an issue when accessing your files. Fylo has
+              you <br />
+              covered for all of your file storage needs.
+            </p>
+            <p>
+              Securely share files and folders with friends, family and
+              colleagues for live <br />
+              collaboration. No email attachments required.
+            </p>
+            <a href="facebook.com" class="btn"
+              >See how Fylo works
+              <svg
+                class="arw"
+                width="16"
+                height="16"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <circle id="b" cx="6" cy="6" r="6" />
+                  <filter
+                    x="-25%"
+                    y="-25%"
+                    width="150%"
+                    height="150%"
+                    filterUnits="objectBoundingBox"
+                    id="a"
+                  >
+                    <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                    <feGaussianBlur
+                      stdDeviation="1"
+                      in="shadowOffsetOuter1"
+                      result="shadowBlurOuter1"
+                    />
+                    <feColorMatrix
+                      values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0"
+                      in="shadowBlurOuter1"
+                    />
+                  </filter>
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                  <g transform="translate(2 2)">
+                    <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                    <use fill="#62E0D9" xlink:href="#b" />
+                  </g>
+                  <path
+                    d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                    fill="#1B2330"
+                  />
+                </g>
+              </svg>
+            </a>
           </h1>
-          <p>
-            Never let location be an issue when accessing your files. Fylo has
-            you <br />
-            covered for all of your file storage needs.
-          </p>
-          <p>
-            Securely share files and folders with friends, family and colleagues
-            for live <br />
-            collaboration. No email attachments required.
-          </p>
         </div>
+        <br>
+        <br>
+        <!-- box for spilde -->
+        
+        <img
+        class="qoutes" 
+        src="./assets/images/bg-quotes.png" alt="">
+        
+        <div class="flexbox-container">
 
-        <div class="adjs">
-          <img
-            src="./assets/images/bg-quotes.png"
-            loading="lazy"
-            alt=""
-            class="quote-img"
-            style="
-              opacity: 1;
-              transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-              transform-style: preserve-3d;
-            "
-          />
-          <div class="box">
-            <div class="tiles">
-              <div class="txt">
-                <p>
-                  Fylo has improved our team productivity by an order of
-                  magnitude. Since making the switch our team has become a
-                  well-oiled collaboration machine.
+
+          <!--1st-->
+          <div class="flexbox-item box1">
+            <p class="para">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+              <div class="admin">
+                <img 
+                class="pics"
+                src="./assets/images/profile-1.jpg" alt="">
+                <div class="adminrole">
+                  <h3>Satish Patel</h3>
+                  <p class="role">
+                    Founder & CEO, Huddle
+                    
+                  </p>
+                </div>
+              </div>
+          </div>
+
+
+          <!--2nd-->
+          <div class="flexbox-item box2">
+            <p class="para">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="admin">
+              <img  
+              class="pics"
+              src="./assets/images/profile-2.jpg" alt="">
+              <div class="adminrole">
+                <h3>Satish Patel</h3>
+                <p class="role">
+                  Founder & CEO, Huddle
+                  
                 </p>
               </div>
             </div>
           </div>
+          
+          
+            <!--3rd-->
+          <div class="flexbox-item box3">
+            <p class="para">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="admin">
+              <img 
+              class="pics"
+              src="./assets/images/profile-3.jpg" alt="">
+              <div class="adminrole">
+                <h3>Satish Patel</h3>
+                <p>
+                  Founder & CEO, Huddle
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+
+
         </div>
+
+
+        </div>
+
+        <div class="splide">
+          <div class="splide_track">
+            <div class="splide_list">
+              <li class="splide_slide">
+                 slide-1
+              </li>
+              <li class="splide_slide">
+                 slide-2
+              </li>
+              <li class="splide_slide">
+                 slide-3
+              </li>
+              <li class="splide_slide">
+                 slide-4
+              </li>
+              <li class="splide_slide">
+                 slide-5
+              </li>
+              <li class="splide_slide">
+                 slide-6
+              </li>
+        </div>
+            </div>
+          </div>
       </section>
     </main>
 
@@ -115,8 +227,10 @@
       <br />
       <br />
       <br />
-
+      
       <br />
     </footer>
   </body>
+  <script src="./dist/js/splide.min.js"></script>
+  <script src="./app/js/solano.js"></script>
 </html>

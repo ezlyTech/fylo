@@ -3,11 +3,14 @@
     .solano{
         
         .uptxt{
-
-            
-
+            max-width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
             
                 .uptxt p {
+
                     font-family: $font-secondary;
                     font-style: normal;
                     font-weight: 400;
@@ -15,29 +18,170 @@
                     line-height: 1.5rem;
                     
                 }
+                .btn {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 1.375rem;
+                    color: $color-green;
+                    border-bottom: 1px solid $color-green;                       
+                }
           
         }
 
-    .adjs{
-        margin-left: 10rem;
-        .box {
-            margin-top: -2rem;
-            margin-left: -4rem;
-            .tiles {
-                margin-left: 5rem;
-                border: 1px solid $color-darkblue;
-                border-radius: 3.93258px;
-                background-color: $color-darkblue;
-                width: 360px;
-                height: 200px;
-                left: 540px;
-                top: 2545px;
-                box-shadow: 5px 5px 8px 4px
-                rgba(56, 56, 56, 0.0991282);
+.qoutes{
+    padding: 0;
+    margin-left: 80px;
+    z-index: -1;
+}
 
 
-            }
+        //box 
+.flexbox-container {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.flexbox-item {
+    height: 200px;
+    width: 360px;
+    left: 20px;
+    top: 59px;
+    margin: 25px;
+    background-color: $color-darkblue;
+    box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.0991282);
+    border-radius: 3.93258px;
+
+    
+
+}
+
+.box1 {
+    
+    min-width: 360px;
+    min-height: 200px;
+    .para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    margin: 30px;
+    margin-top: 35px;
+    }
+    .admin {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin: 30px;
+        .pics{
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            
+        }
+        .adminrole h3{
+            margin-top: -3px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.5px;
+        }
+        .adminrole p {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 10px;
+            letter-spacing: 0.5px;
         }
     }
-    
+}
+.box2 {
+    min-width: 360px;
+    min-height: 200px;
+    .para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    margin: 30px;
+    margin-top: 35px;
+    }
+    .admin {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin: 30px;
+        .pics{
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            
+        }
+        .adminrole h3{
+            margin-top: -3px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.5px;
+        }
+        .adminrole p {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 10px;
+            letter-spacing: 0.5px;
+        }
+    }
+}
+.box3 {
+    min-width: 360px;
+    min-height: 200px;
+    .para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    margin: 30px;
+    margin-top: 35px;
+    }
+    .admin {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin: 30px;
+        .pics{
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            
+        }
+        .adminrole h3{
+            margin-top: -3px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.5px;
+        }
+        .adminrole p {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 10px;
+            letter-spacing: 0.5px;
+        }
+    }
+}
+
 }
