@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     line-height: 100px;
-    margin-bottom: 100px;
-    
+
  
     img{
         width: 100%;
@@ -28,14 +27,22 @@
 
     .box__wrapper{
 
-        .box__container{
+        .box__container {
             display: flex;
             max-width: 880px;
-            gap: 70px;
+            flex-wrap: wrap;
+            gap: 10em;
+            padding-bottom: 50px;
+            padding-top: auto;
+            justify-content: center;
 
             .box__items{
                 max-width: 349px;
                 text-align: center;
+            }
+
+            .box__image{
+                min-height: 90px;
             }
 
             .box__text{
@@ -44,5 +51,11 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
 
 
