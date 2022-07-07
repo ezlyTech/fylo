@@ -7,7 +7,6 @@
  
     img{
         width: 100%;
-
     }
 
     .base__container{
@@ -21,11 +20,29 @@
         .button__primary{
             align-items: center;
             margin: auto;
-           /* margin-top: 30px; */
-            
         }
     }
+}
 
+.box{
+
+    .box__wrapper{
+
+        .box__container{
+            display: flex;
+            max-width: 880px;
+            gap: 70px;
+
+            .box__items{
+                max-width: 349px;
+                text-align: center;
+            }
+
+            .box__text{
+                color: white;
+            }
+        }
+    }
 }
 
 
