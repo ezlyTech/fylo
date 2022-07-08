@@ -432,7 +432,13 @@ button:hover {
   color: #62E0D9;
   border-bottom: 1px solid #62E0D9;
 }
+.solano .qoutes {
+  padding: 0;
+  margin-left: 80px;
+  z-index: -1;
+}
 .solano .flexbox-container {
+  margin-top: -40px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -457,16 +463,22 @@ button:hover {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.5px;
+  margin: 30px;
+  margin-top: 35px;
 }
 .solano .box1 .admin {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 30px;
 }
 .solano .box1 .admin .pics {
+  border-radius: 50%;
   width: 24px;
   height: 24px;
 }
 .solano .box1 .admin .adminrole h3 {
+  margin-top: -3px;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -490,16 +502,22 @@ button:hover {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.5px;
+  margin: 30px;
+  margin-top: 35px;
 }
 .solano .box2 .admin {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 30px;
 }
 .solano .box2 .admin .pics {
+  border-radius: 50%;
   width: 24px;
   height: 24px;
 }
 .solano .box2 .admin .adminrole h3 {
+  margin-top: -3px;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -523,16 +541,22 @@ button:hover {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.5px;
+  margin: 30px;
+  margin-top: 35px;
 }
 .solano .box3 .admin {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 30px;
 }
 .solano .box3 .admin .pics {
+  border-radius: 50%;
   width: 24px;
   height: 24px;
 }
 .solano .box3 .admin .adminrole h3 {
+  margin-top: -3px;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -549,25 +573,40 @@ button:hover {
 
 .base__wrapper {
   display: flex;
-  height: 50px;
   justify-content: center;
   line-height: 100px;
 }
 .base__wrapper img {
-  /*   width: 300px;
-     height: 250px; */
-  height: 400px;
-  left: 360px;
-  top: 200px;
-  width: 500px;
+  width: 100%;
 }
 .base__wrapper .base__container {
   text-align: center;
   align-items: center;
   display: center;
+  width: 734px;
+  max-width: 734px;
 }
 .base__wrapper .base__container .button__primary {
   align-items: center;
   margin: auto;
-  margin-top: 30px;
+}
+
+.box .box__wrapper .box__container {
+  display: flex;
+  max-width: 880px;
+  flex-wrap: wrap;
+  gap: 10em;
+  padding-bottom: 50px;
+  padding-top: auto;
+  justify-content: center;
+}
+.box .box__wrapper .box__container .box__items {
+  max-width: 349px;
+  text-align: center;
+}
+.box .box__wrapper .box__container .box__image {
+  min-height: 90px;
+}
+.box .box__wrapper .box__container .box__text {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
