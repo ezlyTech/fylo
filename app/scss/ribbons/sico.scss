@@ -67,9 +67,6 @@
         width: 190px;
         height: auto;
         float: left;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
         padding: 0px 20px 20px 20px;
       }
         .Fh1{
@@ -118,6 +115,7 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         padding: 0px 20px 20px 20px;
+
         ul li{
           display: inline-block;
           padding-right: 5px;
