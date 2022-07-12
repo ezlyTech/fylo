@@ -1,5 +1,6 @@
 .header__wrapper{
     position: sticky;
+
     .header__logo{
         float: left;
         z-index: 2;
@@ -7,13 +8,14 @@
         right: 86.25%;
         top: 1.38%;
         bottom: 0.44%;
-
+        padding: 20px 20px;
     }
+
+    
 
     .header__navs{
         justify-content: right;
         display: block;
-        left: 90%;
         .nav__items{
             display: block;
             list-style-type: none;
@@ -61,7 +63,12 @@
     align-items: center;
     justify-content: center;
 
-    
+    .desktop-logo2{
+      left: 5.99%;
+      right: 86.25%;
+      padding: 20px 20px;
+      padding-left: 0;
+    }
 
       .col{
         width: 190px;
