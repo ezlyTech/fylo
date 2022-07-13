@@ -17,7 +17,7 @@
     .header__navs{
         position: sticky;
         justify-content: right;
-        display: block;
+        display: flex;
         .nav__items{
             display: block;
             float: right;
@@ -93,6 +93,7 @@
       font-family: sans-serif;
       font-size: 36px;
       font-weight: 600;
+      text-align: center;
     }
     
     .subtitle {
@@ -101,6 +102,7 @@
       font-size: 16px;
       font-weight: 600;
       margin-top: 10px;
+      text-align: center;
     }
     
     .input-container {
@@ -114,6 +116,7 @@
     }
     
     .ic2 {
+      position: absolute;
       margin-top: 30px;
     }
     
@@ -127,7 +130,7 @@
       height: 100%;
       outline: 0;
       padding: 4px 20px 0;
-      width: 100%;
+      width: 60%;
     }
     
     .cut {
@@ -177,6 +180,8 @@
     }
     
     .submit {
+      position: relative;
+      float: right;
       background-color: #08d;
       border-radius: 12px;
       border: 0;
@@ -185,10 +190,10 @@
       cursor: pointer;
       font-size: 18px;
       height: 50px;
-      margin-top: 38px;
       // outline: 0;
       text-align: center;
-      width: 100%;
+      width: 35%;
+      margin-top: 30px;
     }
     
     .submit:active {
