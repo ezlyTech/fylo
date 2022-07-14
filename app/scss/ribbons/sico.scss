@@ -350,7 +350,8 @@
   }
   
   .input {
-   
+    position: relative;
+    display: block;
   }
   
   .cut {
@@ -384,7 +385,7 @@
   }
   
   .submit {
-    
+    display: inline-block;
   }
   
   .submit:active {
