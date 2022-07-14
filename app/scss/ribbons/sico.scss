@@ -315,23 +315,18 @@
 }
 
 .footer {
-  width: 100%;
-  display: flex;
-  position: relative;
-  height: auto;
-  background-color: #070617;
-  align-items: center;
-  justify-content: center;
+  
 
   .desktop-logo2{
-    left: 5.99%;
-    right: 86.25%;
-    padding: 20px 20px;
-    padding-left: 0;
+    padding-left: 40px;
   }
 
   .form {
-   width: 80%;
+  position: relative;
+  width: 336px;
+  height: 353px;
+  left: 35px;
+  display: inline-block;
   
   
   .title {
@@ -397,7 +392,8 @@
   }
   }
     .col{
-      
+      padding-left: 70px;
+      width: 60%;
     }
       .Fh1{
         
@@ -408,7 +404,7 @@
         }
 
         ul li{
-       
+        
         }
 
         ul li:hover {
