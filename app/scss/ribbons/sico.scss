@@ -278,4 +278,156 @@
 
 @media only screen and (max-width: 768px) {
 
+  .header__wrapper{
+    display: block;
+    position: sticky;
+    flex-direction: column;
+
+    .header__logo{
+        position: sticky;
+        position: absolute;
+        
+    }
+
+    
+
+    .header__navs{
+       
+        .nav__items{
+            
+
+            li{
+               
+            }
+
+            li a{
+  
+            }
+
+            li a:hover {
+                
+              }
+        }
+
+       
+    }
+
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+  align-items: center;
+  justify-content: center;
+
+  .desktop-logo2{
+    left: 5.99%;
+    right: 86.25%;
+    padding: 20px 20px;
+    padding-left: 0;
+  }
+
+  .form {
+   width: 80%;
+  
+  
+  .title {
+    
+  }
+  
+  .subtitle {
+    
+  }
+  
+  .input-container {
+    
+  }
+  
+  .ic1 {
+    
+  }
+  
+  .ic2 {
+    
+  }
+  
+  .input {
+   
+  }
+  
+  .cut {
+    
+  }
+  
+  .cut-short {
+   
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+  
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+   
+  }
+  
+  .input:focus ~ .placeholder {
+  
+  }
+  
+  .submit {
+    
+  }
+  
+  .submit:active {
+    
+  }
+  }
+    .col{
+      
+    }
+      .Fh1{
+        
+        }
+
+        ul{
+        
+        }
+
+        ul li{
+       
+        }
+
+        ul li:hover {
+         
+        }      
+
+    .colSocial{
+      
+
+      ul li{
+        
+
+      }
+      }
+      .clearfix {
+        clear: both;
+      }
+    
+    }
+
+  
 }
