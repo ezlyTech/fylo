@@ -66,6 +66,7 @@
     background-color: #070617;
     align-items: center;
     justify-content: center;
+    margin-top: 200px;
 
     .desktop-logo2{
       left: 5.99%;
@@ -285,8 +286,11 @@
 
     .header__logo{
         position: sticky;
-        position: absolute;
-        
+        width: 80px;
+
+        img {
+          width: 100%;
+        }
     }
 
     
@@ -301,7 +305,7 @@
             }
 
             li a{
-  
+              font-size: 12px;
             }
 
             li a:hover {

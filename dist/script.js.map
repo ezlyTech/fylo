@@ -1,1 +1,1 @@
-{"version":3,"file":"script.js","names":[],"sources":[],"mappings":""}
+{"version":3,"file":"script.js","names":["splide","Splide","perPage","rewind","wheel","autoplay","loop","speed","mount"],"sources":["script.js"],"mappings":"AAAA,IAAIA,OAAS,IAAIC,OAAQ,UAAW,CAChCC,QAAS,EACTC,QAAS,EACTC,OAAO,EACPC,UAAU,EACVC,MAAM,EACNC,MAAO,MAGXP,OAAOQ"}
