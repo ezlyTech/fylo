@@ -1,9 +1,10 @@
 .header__wrapper{
     position: sticky;
-    display: block;
+    position: -webkit-sticky;
+    top: 0;
 
+    
     .header__logo{
-        position: sticky;
         float: left;
         z-index: 2;
         left: 5.99%;
@@ -16,15 +17,12 @@
     
 
     .header__navs{
-        position: sticky;
         justify-content: right;
         display: flex;
         .nav__items{
             display: block;
             float: right;
             list-style-type: none;
-            top: 1.38%;
-            bottom: 0.44%;
             padding: 0;
             overflow: hidden;
             background-color: #1B2330;
@@ -201,7 +199,7 @@
       text-align: center;
       width: 35%;
       margin-top: 30px;
-
+      padding: 0px;
       background: linear-gradient(129.57deg, #63E1D9 -26.63%, #34A0CD 100%);
       box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
       border-radius: 24px;
