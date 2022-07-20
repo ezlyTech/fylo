@@ -2,6 +2,7 @@
     position: sticky;
     background-color: #1B2330;
     z-index: 100;
+    top: 0;
     
     .header__logo{
         float: left;
@@ -13,7 +14,6 @@
         padding: 20px 20px;
     }
 
-    
 
     .header__navs{
         justify-content: right;
